@@ -79,7 +79,7 @@ namespace challenge.Controllers
             return Ok(compensation);
         }
 
-        [HttpPost("{id}/compensation")]
+        [HttpPost("{id}/compensation/")]
         public IActionResult AddCompensation([FromBody] Compensation compensation)
         {
             _logger.LogDebug($"Received employee compensation create request for '{compensation.Id}'");
