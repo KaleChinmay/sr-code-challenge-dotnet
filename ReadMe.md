@@ -1,4 +1,22 @@
 # Mindex Coding Challenge
+
+## Task 1
+* READ
+    * HTTP Method: GET 
+    * URL: localhost:8080/api/employee/{id}/reporting/
+    * RESPONSE: Reporting Structure for that Employee
+
+## Task 2
+* CREATE
+    * HTTP Method: POST 
+    * URL: localhost:8080/api/employee/{id}/compensation/
+    * PAYLOAD: Compensation
+    * RESPONSE: Compensation
+* READ
+    * HTTP Method: GET 
+    * URL: localhost:8080/api/employee/{id}/compensation/
+    * RESPONSE: Compensation
+
 ## What's Provided
 A simple [.NetCore 2.1](https://dotnet.microsoft.com/download/dotnet-core/2.1) web application has been created and bootstrapped 
 with data. The application contains information about all employees at a company. On application start-up, an in-memory 
